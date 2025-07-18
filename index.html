@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url('https://fonts.cdnfonts.com/css/kurinto');
+*{
+    padding: 0px ;
+    margin: 0px;
+    box-sizing:border-box ;
+}
+
+body{
+    background-color: rgba(7, 1, 1, 0.899);
+    color: block;
+    font-family: 'Kurinto Aria', sans-serif;
+    height: 100vh;
+}
+.counter_container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 250px auto;
+    width: 400px;
+    background-color: rgb(32, 235, 5);
+    border-radius: 20px;
+    padding: 20px 30px ;
+    box-shadow: 0px 0px 400px rgb(255, 0, 174);
+}
+.btn{
+    font-size: 100px ;
+     background-color: transparent;
+     border: none;
+     font-weight: bold;
+}
+.ctr_data{
+    font-size: 100px;
+     font-weight: bold;
+    
+}
+</style>
+<body>
+    <div class="counter_container">
+        <button class="btn" onclick="decrease()">-</button>
+        <div class="ctr_data" id="ctr_data">ADD</div>
+        <button class="btn" onclick="increase()">+</button>
+
+
+
+    </div>
+</body>
+<script src="/index.js"></script>
+</html>
